@@ -1,13 +1,21 @@
 body {
     margin: 0;
-    background-color: #ffffff;
+    background-color: #aea5ad;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: rgb(72, 72, 72);
+    margin: 15px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-bottom: 10px;
 }
 
 .display {
@@ -29,10 +37,10 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-image:url(https://assets.puzzlefactory.pl/puzzle/441/994/original.webp);
+    background-color: darkmagenta;
     padding: 15px;
     border-radius: 32px;
-    box-shadow: 15px 10px 0px 5px #00000033;
+    box-shadow: 15px 10px 0px 5px #493e4633;
 }
 
 button {
@@ -46,11 +54,12 @@ button {
 }
 
 
-#AC , #cero{
+#AC,
+#cero {
     grid-column: span 2;
 }
 
-input{
+input {
     color: #ffffff;
     font-size: 30px;
 }
